@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#color-box {
+    margin-top: 50px;
+}
+
+button {
+    padding: 15px 30px; /* Added padding */
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer;
+    border: none; /* Remove button border */
+    color: white; /* Set button text color to white */
+    border-radius: 5px; /* Add border radius */
+}
+
+button#btn-reset {
+    background-color: #ccc; /* Set reset button background color to grey */
+}
