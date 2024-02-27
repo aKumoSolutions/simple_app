@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Changer App</title>
+    <title>Color Changer App - V1</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
+        <div id="version-box">Version 1</div>
         <h1>Color Changer App</h1>
         <div id="color-box">
             <button id="btn-red" style="background-color: red;">Red</button>
             <button id="btn-blue" style="background-color: blue;">Blue</button>
             <button id="btn-green" style="background-color: green;">Green</button>
+        </div>
+        <div id="reset-box">
             <button id="btn-reset">Reset</button>
         </div>
     </div>

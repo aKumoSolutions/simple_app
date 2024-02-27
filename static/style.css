@@ -12,21 +12,38 @@ h1 {
     margin-bottom: 20px;
 }
 
+#version-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #d8b6ff; /* Light purple background color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Bold black text color */
+}
+
 #color-box {
-    margin-top: 50px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    margin-bottom: 20px;
 }
 
 button {
-    padding: 15px 30px; /* Added padding */
-    margin: 0 10px;
+    padding: 15px 30px;
+    margin: 0 5px;
     font-size: 16px;
-    font-weight: bold; /* Make the text bold */
+    font-weight: bold;
     cursor: pointer;
-    border: none; /* Remove button border */
-    color: white; /* Set button text color to white */
-    border-radius: 5px; /* Add border radius */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    flex: 1; /* Equal width for all buttons */
 }
 
-button#btn-reset {
-    background-color: #ccc; /* Set reset button background color to grey */
+#btn-reset {
+    margin-top: 20px;
+    width: calc(100% - 10px); /* Set width of reset button */
+    background-color: #ccc;
 }
