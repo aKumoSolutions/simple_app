@@ -11,14 +11,15 @@ This is a simple Python based application. It has 4 buttons that changes the col
 
 ### Folder Structure 
 ```
-simple_app/
-│
+.
 ├── app.py
+├── LICENSE
+├── README.md
 ├── requirements.txt
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── index.html
+├── static
+│   └── style.css
+└── templates
+    └── index.html
 ```
 
 ### Requirements
